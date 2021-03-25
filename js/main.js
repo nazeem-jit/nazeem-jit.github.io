@@ -10,17 +10,18 @@ var info = {
     "github":"https://github.com/nazeem-jit",
 	"work_experience": [
 		{
-			"work_title": "Customer Relationship Management",
-			"company_name": "Oak Tree",
-			"company_link": "",
-			"description": "In Oak tree I have worked with salesforce CRM and learned a lot about customer management and relations, there I have learned how to deal with customers effectively and There I got to learn a lot.",
-		},
-		{
 			"work_title": "Mobile Developer",
 			"company_name": "JIT Inspire",
 			"company_link": "https://www.jitinspire.com/",
 			"description": "In a startup company I have learned mobile technologies and learned how to do things quikcly and effectively, I have learned Flutter there and Learned how to learn new things quickly.",
 		},
+		{
+			"work_title": "Customer Relationship Management",
+			"company_name": "Oak Tree",
+			"company_link": "#",
+			"description": "In Oak tree I have worked with salesforce CRM and learned a lot about customer management and relations, there I have learned how to deal with customers effectively and There I got to learn a lot.",
+		},
+		
 	],
 	"education":[
 		{
@@ -145,7 +146,7 @@ var educationTemplate="";
 				scaleColor: false,
 				lineWidth: 4,
 				lineCap: 'butt',
-				barColor: '#40826d',
+				barColor: '#57cc97',
 				trackColor: "#f5f5f5",
 				size: 160,
 				animate: 1000
@@ -234,7 +235,7 @@ var educationTemplate="";
 					
 					for(var edu=0;edu<educationInfo.length;edu++)
 					{
-						educationTemplate+=`<li class="timeline-inverted animate-box >
+						educationTemplate+=`<li class="timeline-inverted animate-box" >
 						<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
